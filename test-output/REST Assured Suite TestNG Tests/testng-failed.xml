@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [REST Assured Suite TestNG Tests]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Incidents(failed)">
+    <classes>
+      <class name="services.AnotherIncidentTests">
+        <methods>
+          <include name="CreateIncidents"/>
+          <include name="getIncidents1"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- services.AnotherIncidentTests -->
+      <class name="services.IncidentTests">
+        <methods>
+          <include name="CreateIncidents1"/>
+          <include name="getIncidents1"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- services.IncidentTests -->
+    </classes>
+  </test> <!-- Incidents(failed) -->
+</suite> <!-- Failed suite [REST Assured Suite TestNG Tests] -->
